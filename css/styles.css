@@ -29,10 +29,14 @@ button{
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    box-shadow: inset 0 0 0 0 #caced3;
+    transition: all ease 0.3s;
 }
 
 button:hover{
     cursor: pointer;
+    box-shadow: inset 120px 0 0 0 #caced3;
+    color: #353f49;
 }
 
 .info-box{
