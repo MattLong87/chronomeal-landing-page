@@ -5,7 +5,6 @@
 body{
     text-align: center;
     background-color: #caced3;
-    line-height: 1.5;
 }
 
 header{
@@ -20,14 +19,38 @@ header{
 
 .info-box{
     color: #2c3d55;
+    border-bottom: 1px #2c3d55 solid;
+    border-top: 1px #ddd solid;
+    max-width: 94%;
+    display: inline-block;
+}
+
+.top-box{
+    border-top: none;
+}
+
+.bottom-box{
+    border-bottom: none;
 }
 
 .info-box h2{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 24pt;
+    font-size: 28pt;
+    margin: 20px 0px;
 }
 
 .info-box p{
     font-family: 'Nunito', sans-serif;
     font-size: 16pt;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+
+.icon-container{
+    font-size: 60pt;
+}
+
+/*making cutlery a little smaller because it's a bolder graphic*/
+.cutlery-container{
+    font-size: 50pt;
 }
