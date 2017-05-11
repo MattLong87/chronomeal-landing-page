@@ -17,6 +17,24 @@ header{
     margin: 30px 0px;
 }
 
+button{
+    background-color: #536271; 
+    color: #ffffff; 
+    width: 120px;
+    height: 47px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 4px solid #353f49;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
 .info-box{
     color: #2c3d55;
     border-bottom: 1px #2c3d55 solid;
