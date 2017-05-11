@@ -76,3 +76,25 @@ button:hover{
 .cutlery-container{
     font-size: 50pt;
 }
+
+@media screen and (min-width: 800px){
+    .logo{
+        width: 70vw;
+        margin: 70px 0px;
+    }
+
+    header{
+        padding-bottom: 40px;
+    }
+
+    button{
+        width: 160px;
+        height: 55px;
+        margin: 0px 20px;
+        font-size: 12pt;
+    }
+
+    button:hover{
+        box-shadow: inset 160px 0 0 0 #caced3;
+    }
+}
