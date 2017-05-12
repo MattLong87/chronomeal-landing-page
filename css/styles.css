@@ -127,6 +127,8 @@ button:hover{
 
     .cutlery-container{
         font-size: 110pt;
+        padding: 10px;
+        transform: translateY(-20px);
     }
     
     .text-wrapper{
