@@ -1,6 +1,6 @@
 var largeWindow = false;
 
-if ($('.info-box').css('display') === "inline-block") {
+if ($('button').css('width') === "160px") {
     $('.info-box h2').each(function () {
         $(this).next('p').addBack().wrapAll('<div class="text-wrapper">')
     })
@@ -10,7 +10,7 @@ if ($('.info-box').css('display') === "inline-block") {
 $(window).resize(checkSize);
 
 function checkSize() {
-    if ($('.info-box').css('display') === "inline-block") {
+    if ($('button').css('width') === "160px") {
         if (largeWindow == false) {
             $('.info-box h2').each(function () {
                 $(this).next('p').addBack().wrapAll('<div class="text-wrapper">')

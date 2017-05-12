@@ -82,20 +82,24 @@ button:hover{
     font-size: 50pt;
 }
 
-@media screen and (min-width: 800px){
+.laptop-container{
+    display: inline;
+}
+
+@media screen and (min-width: 876px){
     .logo{
         width: 70vw;
-        margin: 70px 0px;
+        margin: 150px 0px;
     }
 
     header{
-        padding-bottom: 40px;
+        padding-bottom: 80px;
     }
 
     button{
         width: 160px;
         height: 55px;
-        margin: 0px 20px;
+        margin: 0px 30px;
         font-size: 12pt;
     }
 
@@ -104,18 +108,56 @@ button:hover{
     }
 
     .info-box{
-        display: inline-block;
-    }
-
-    .icon-container{
-        font-size: 130pt;
-
+        display: block;
     }
 
     .info-box h2{
-
+        font-size: 28pt;
     }
 
     .info-box p{
+        font-size: 16pt;
+    }
+
+    .icon-container{
+        font-size: 140pt;
+    }
+
+    .cutlery-container{
+        font-size: 110pt;
+    }
+    
+    .text-wrapper{
+        display: inline-block;
+        width: 500px;
+        margin: 70px;
+    }
+
+    .laptop-container{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .info-box h2{
+        font-size: 36pt;
+    }
+
+    .info-box p{
+        font-size: 20pt;
+    }
+
+    .text-wrapper{
+        display: inline-block;
+        width: 700px;
+        margin: 70px;
+    }
+
+    .icon-container{
+        font-size: 170pt;
+    }
+
+    .cutlery-container{
+        font-size: 140pt;
     }
 }
