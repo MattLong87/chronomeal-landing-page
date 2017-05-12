@@ -121,6 +121,8 @@ button:hover{
 
     .icon-container{
         font-size: 140pt;
+        width: 200px;
+        display: inline-block;
     }
 
     .cutlery-container{
@@ -130,7 +132,7 @@ button:hover{
     .text-wrapper{
         display: inline-block;
         width: 500px;
-        margin: 70px;
+        margin: 70px 30px;
     }
 
     .laptop-container{
@@ -144,13 +146,14 @@ button:hover{
     }
 
     .info-box p{
+        margin-top: 40px;
         font-size: 20pt;
+        text-align: left;
     }
 
     .text-wrapper{
         display: inline-block;
         width: 700px;
-        margin: 70px;
     }
 
     .icon-container{
