@@ -44,7 +44,9 @@ button:hover{
     border-bottom: 1px #2c3d55 solid;
     border-top: 1px #ddd solid;
     max-width: 94%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .top-box{
@@ -59,6 +61,7 @@ button:hover{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 28pt;
     margin: 20px 0px;
+    order: 1;
 }
 
 .info-box p{
@@ -66,10 +69,12 @@ button:hover{
     font-size: 16pt;
     line-height: 1.5;
     margin: 20px 0px;
+    order: 3;
 }
 
 .icon-container{
     font-size: 60pt;
+    order: 2;
 }
 
 /*making cutlery a little smaller because it's a bolder graphic*/
@@ -96,5 +101,21 @@ button:hover{
 
     button:hover{
         box-shadow: inset 160px 0 0 0 #caced3;
+    }
+
+    .info-box{
+        display: inline-block;
+    }
+
+    .icon-container{
+        font-size: 130pt;
+
+    }
+
+    .info-box h2{
+
+    }
+
+    .info-box p{
     }
 }
