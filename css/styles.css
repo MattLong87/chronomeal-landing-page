@@ -51,6 +51,7 @@ button:hover{
 
 .top-box{
     border-top: none;
+    margin-top: 20px;
 }
 
 .bottom-box{
@@ -90,6 +91,10 @@ button:hover{
     .logo{
         width: 70vw;
         margin: 150px 0px;
+    }
+
+    .top-box{
+        margin-top: 0px;
     }
 
     header{
